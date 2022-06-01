@@ -30,8 +30,10 @@ section div {
 
 /* Article section */
 
+
 #cursos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -42,16 +44,25 @@ section div {
 
 .cardsCursos {
     display: flex;
+    padding: 30px 0;
 }
 
-/* .cardsCursos img {
+.cardsCursos div img {
     max-width: 250px;
     max-height: 250px;
-} */
+}
 
 .figuras {
     display: flex;
     flex-direction: column;
+}
+
+.buttonCursos {
+    color: #FFF;
+    border: none;
+    background: #FF4081;
+    border-radius: 62px;
+    padding: 10px 50px;
 }
 
 /* .cards section div {
@@ -76,23 +87,26 @@ section div {
 
 /* Article */
 
-article{
+article {
     background: #E5E5E5;
-    
+    padding: 10px 10%;
+
 }
 
 article h2 {
     color: #009688;
-    margin: 10px 0 73px 128px;
-}
+}   
 
 .container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
 }
 
 #blog {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h4 {
@@ -101,13 +115,12 @@ h4 {
     padding: 0;
 }
 
-article button {
-    display: flex;
-    justify-content: space-around;
+article #button {
+    /* display: flex;
+    justify-content: space-around; */
     color: #FF4081;
     border:  2px solid #FF4081;
     border-radius: 62px;
     padding: 10px 41px;
-    margin-top: 101px;
-    
+    margin: 0 auto;  
 }
