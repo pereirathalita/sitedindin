@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+section h1 {
+    color: #FF4081;
+}
+
+section p {
+    color: #555555;
+    
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.comentariosCards {
+    padding: 35px 10%;
+    flex-wrap: wrap;
+}
+
+.infoCards {
+    max-width: 600px;
+    padding: 30px 5%;
+}
+
+.infoCards p {
+    padding-left: 20px;
+}
+
+/* Article */
+
+article{
+    background: #E5E5E5;
+    
+}
+
+article h2 {
+    color: #009688;
+    margin: 10px 0 73px 128px;
+}
+
+.container {
+    display: grid;
+}
+
+#blog {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    color: #009688;
+    margin: 0;
+    padding: 0;
+}
+
+article button {
+    display: flex;
+    justify-content: space-around;
+    color: #FF4081;
+    border:  2px solid #FF4081;
+    border-radius: 62px;
+    padding: 10px 41px;
+    margin-top: 101px;
+    
+}

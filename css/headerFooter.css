@@ -8,10 +8,12 @@
 /* header */
 
 header {
+    padding: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2E948A;
+    width: 100%;
 }
 
 header a img {
@@ -20,30 +22,70 @@ header a img {
     margin-right: auto;
 }
 
-nav ul {
+.navheader ul {
     display: flex;  
     justify-content: end;
 }
 
-nav ul li {
+.navheader ul li {
     display: inline;
     padding: 12px;
     list-style: none;
 }
 
-nav ul li a {
+.navheader ul li a {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     text-transform: uppercase;
+    color: #FDFDFD;
+    text-decoration: none;
     
 }
 
 /* footer */
-
+  
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2E948A;
+      padding: 35px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2E948A;
+      width: 100%;
+}
+
+nav {
+    padding: 2vh;
+}
+
+.navfooter ul li {
+    list-style: none;
+}
+
+.navfooter ul li a {
+      text-decoration: none;
+      color: #FFF;
+}
+
+.btnfooter p  {
+      background: #2E948A;
+      border: 2px solid #FFFFFF;
+      color: #FFFFFF;
+      width: 15rem;
+      font-weight: 500;
+      padding: 0.7rem;
+      border-radius: 20px;
+      text-align: center;
+}
+
+.btnfooter p:hover {
+      cursor: pointer;
+}
+
+.btnfooter :nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.btnfooter {
+    flex-direction: column;
 }
