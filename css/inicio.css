@@ -10,16 +10,55 @@ section h1 {
 }
 
 section p {
-    color: #555555;
-    
+    color: #555555;    
 }
 
 section div {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
+#container1 {
+    display: flex;
+}
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Article section */
+
+#cursos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cursos div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardsCursos {
+    display: flex;
+}
+
+/* .cardsCursos img {
+    max-width: 250px;
+    max-height: 250px;
+} */
+
+.figuras {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .cards section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 .comentariosCards {
     padding: 35px 10%;
