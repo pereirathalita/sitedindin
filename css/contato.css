@@ -10,6 +10,7 @@
 body main section {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 div h3 {
@@ -49,8 +50,9 @@ form #msg {
     left: 3px;
     top: 183px;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-left: 105px;
+    resize: none;
 }
 
 .buttonEntrar {

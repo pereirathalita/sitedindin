@@ -60,11 +60,14 @@ nav {
 
 .navfooter ul li {
     list-style: none;
+    padding: 0 0 5px 0;
+    
 }
 
 .navfooter ul li a {
       text-decoration: none;
       color: #FFF;
+      
 }
 
 .btnfooter p  {
