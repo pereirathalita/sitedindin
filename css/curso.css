@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+article h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.topo {
+    display: flex;
+    justify-content:center;
+    padding: 60px 60px;
+    gap: 50px;
+}
+
+.meio {
+    display: flex;
+    padding: 20px 10%; 
+    flex-wrap: wrap;
+    border-bottom: 5px solid #c4c4c4;   
+}
+
+.semborda {
+    border-bottom: none;
+}
+
+.meio h2 {
+    flex-direction: column;
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    padding: 30px 0 20px 40px;
+    
+}
+
+.meio p {
+    padding: 0px 20px;
+}
