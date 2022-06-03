@@ -5,11 +5,7 @@
     font-family: "Ubuntu", sans-serif;
 }
 
-article .meio {
-    background: #F7F7F7;
-}
-
-article h1 {
+.topo h1 {
     color: #FF4081;
     font-weight: 700;
     font-size: 50px;
@@ -23,15 +19,15 @@ article h1 {
     gap: 50px;
 }
 
-.meio {
-    display: flex;
-    padding: 80px 10%; 
-    flex-wrap: wrap;
-    border-bottom: 5px solid #c4c4c4;   
+.containerCursos {
+    background: #F7F7F7;
+    padding: 10px 10%;
 }
 
-.semborda {
-    border-bottom: none;
+.meio {
+    display: flex;
+    padding: 80px 0; 
+    flex-wrap: wrap;  
 }
 
 .meio h2 {
@@ -42,6 +38,11 @@ article h1 {
     line-height: 40px;
     padding: 30px 0 20px 40px;
     
+}
+
+hr {
+    border: 1px solid #c4c4c4;
+    background: #c4c4c4;
 }
 
 .meio p {
