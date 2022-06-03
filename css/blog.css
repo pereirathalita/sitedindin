@@ -5,6 +5,9 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+/* atalho para cores */
+/* :root{} */
+
 #titulo {
     display: flex;
     justify-content: center;
@@ -33,26 +36,19 @@
 
 /* Article */
 
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
 .texto section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 600px;
-    margin: 0 auto;
-}
-
-.texto {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* padding: 10px 10%; */
-    gap: 40px;
-}
-
-.texto p {
-    width: 350px;
-    padding-bottom: 20px;
 }
 
 .texto h3 {
@@ -60,4 +56,9 @@
     font-weight: 500;
     font-size: 30px;  
     padding: 20px 0;
+}
+
+.texto p {
+    width: 350px;
+    padding-bottom: 20px;
 }
