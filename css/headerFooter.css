@@ -10,6 +10,7 @@
 header {
     padding: 1em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #2E948A;
@@ -48,6 +49,7 @@ header a img {
 footer {
       padding: 35px 10%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       background-color: #2E948A;

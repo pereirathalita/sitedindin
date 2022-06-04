@@ -17,6 +17,7 @@ section p {
 
 #titulo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
 }
@@ -24,6 +25,7 @@ section p {
 #container1 {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px 15%;
 }
